@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./base.css"">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <title>coding_advanced</title>
+</head>
+<body>
+    <div id="body-container">
+	    <header>
+	        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		        <a class="navbar-brand fs-3" href="#">Casteria</a>
+		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		             <span class="navbar-toggler-icon"></span>
+		        </button>
+	            <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+		            <ul class="navbar-nav ms-auto">
+			            <li class="nav-item active">
+			             <a class="nav-link" href="#">Home</a>
+			            </li>
+			            <li class="nav-item">
+			             <a class="nav-link" href="#">Food</a>
+			            </li>
+			            <li class="nav-item">
+			             <a class="nav-link" href="#">Drink</a>
+			            </li>
+			            <li class="nav-item">
+			             <a class="nav-link" href="#">お問合せ</a>
+			            </li>
+		            </ul>
+		            <form class="d-flex" role="search">
+					    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					    <button class="btn btn-secondary" type="submit">Search</button>
+				    </form>
+		        </div>
+	        </nav>
+	    </header>
+
+        <div class="swiper">
+	        <div class="swiper-wrapper">	 
+		        <div class="swiper-slide"><img src="../img/food.jpg"  alt="food"></div>
+                <div class="swiper-slide"><img src="../img/food2.jpg"  alt="food2"></div>
+                <div class="swiper-slide"><img src="../img/interior.jpg"  alt="interior"></div>
+		        <div class="swiper-slide"><img src="../img/restaurant.jpg"  alt="interior"></div>
+            </div>
+		    <div class="swiper-pagination"></div>
+		    <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+		    <div class="swiper-scrollbar"></div>
+	    </div>
+	
+        <h2>新型コロナウイルスに対する取り組みの最新情報をご案内</h2>
+
+	    <div class="accordion-container">
+		    <dl class="accordion-list">
+		        <dt class="accordion-title js-accordion-title">⬛衛生面に関して</dt>
+		        <dd class="accordion-text">
+				    <p>・マスクを着用しての接客</p>
+					<p>・出勤前の検温の徹底</p>
+					<p>・レジカウンターやドリンク受け渡し口等への飛沫防止ガードの設置</p>
+					<p>・より頻度の高い手洗いの励行</p>
+					<p>・テーブルにお客様用の消毒アルコールの設置</p>
+					<p>・従業員間の距離確保のため、休憩や研修時の客席利用</p>   
+		        </dd>
+		    </dl>
+		    <dl class="accordion-list">
+			    <dt class="accordion-title js-accordion-title">⬛お客様へのご協力のお願い</dt>
+			    <dd class="accordion-text">
+				    <p>・店内では、飲食時以外のマスク着用をお願いいたします</p>
+				    <p>・入店時の手指の消毒にご協力ください</p>
+				    <p>・レジに並ぶ際、目安を示すフロアステッカーに沿った列間隔の確保にご協力ください</p>
+				    <p>・多数でのお越しの際は、お1人がまとめてご注文願います（混雑時に入場制限をする場合がございます）</p>
+				    <p>・発熱や体調不良の際はご入店をお控えください</p> 
+			    </dd>
+		    </dl>
+		    <dl class="accordion-list">
+			    <dt class="accordion-title js-accordion-title">⬛サービスに関して</dt>
+			    <dd class="accordion-text">
+				    <p>・直接お渡しする商品の提供、金銭授受時にグローブの着用</p>
+				    <p>・ドリンクやフードのサンプリング中止</p>
+				    <p>・地域活動・イベントの中止</p>
+				    <p>・混雑時間帯の客席の譲り合いへのご協力お願いの実施</p>
+				    <p>・店内設置しているミルク、はちみつ、パウダー類の一時引き下げ</p>
+			        <p>・混雑状況に応じたドライブスルーサービスの一時休止や店内客席利用の制限</p>
+			    </dd>
+		    </dl>
+	    </div>
+	
+	    <p class="title">Signature Food</p>
+	    <div class="container text-center">
+            <div class="row">
+			    <div class="col-xl-1 hidden-xs"></div>
+                <div class="col-xl-5 col-12">
+				    <img src="../img/food.jpg" class="img-fluid fadeIn-img" alt="food" width="" height="" loading="">
+			    </div>
+                <div class="col-xl-5 col-12">
+				 <p class="text01">サーモンは刺身やカルパッチョで食べるのが美味しいですが、リッチな気分になれるサーモンステーキがおすすめです。サーモンの美味しさを引き立てる2種のソースも絶品です！</p>
+			    </div>
+			    <div class="col-xl-1 hidden-xs"></div>
+            </div>
+	    </div>
+	    <p class="title">Our Coffee</p>
+	    <div class="container text-center">
+	        <div class="row">
+			    <div class="col-xl-1 hidden-xs"></div>
+		        <div class="col-xl-5 col-12">
+			        <img src="../img/barista.jpg" class="img-fluid fadeIn-img" alt="barista" width="" height="" loading="">
+		        </div>
+		        <div class="col-xl-5 col-12">
+			        <p class="text01">当店のコーヒー豆が厳選して世界中から買い付けています。そして。そのコーヒー豆のおいしさを最大限に引き出すために自社のロースタリーで焙煎しています。</p>
+			    </div>
+			    <div class="col-xl-1 hidden-xs"></div>
+		    </div>
+	    </div>
+	    <p class="title">Our Food</p>
+	    <div class="container text-center">
+	        <div class="row">
+			    <div class="col-xl-1 hidden-xs"></div>
+		        <div class="col-xl-5 col-12">
+			        <img src="../img/food3.jpg" class="img-fluid fadeIn-img" alt="food" width="" height="" loading="">
+		        </div>
+		        <div class="col-xl-5 col-12">
+			        <p class="text01">当店は何よりまずは衛生管理に気をつけています。「安全・安心」をお届けするために日々継続的な努力を惜しみません。</p>
+			    </div>
+			    <div class="col-xl-1 hidden-xs"></div>
+		    </div>
+	    </div>
+        <div class="container container-box">
+		    <div class="row">
+			    <div class="col-xl-1 hidden-xs"></div>
+			    <div class="col-xl-5 col-12 black-box">
+				    <div class="address">
+					    <p class="txt01">Address</p>
+					    <p class="txt02">681 xxx Drive, xxxxx xxxx #01 - 06 000000</p>
+					    <p class="txt02">Opening Hours</p>
+					    <p class="txt01">Mondays - Friday: 10am - 9pm</p>
+					    <p class="txt02">Saturdays, Sundays & Public Holidays: 9am- 9pm</p>
+			        </div>
+			    </div>
+			    <div class="col-xl-5 col-12 black-box box-bottom">
+				    <img src="../img/barista.jpg" class="img-fluid fadeIn-img black-img" alt="barista" width="" height="" loading="">
+			    </div>
+			    <div class="col-xl-1 hidden-xs"></div>
+		    </div>
+	    </div>
+
+	    <div class="d-none d-sm-block">
+	        <p class="shoplist">店舗一覧</p>
+
+	        <ul class="shopimg">
+		        <li class="shopphot">
+		            <img class="shopphot2 fadeIn-img" src="../img/restaurant2.jpg" alt="restaurant2">
+		            <p class="shoptext"><img class="mappin" src="../img/pin.png" alt="pin">東京都渋谷区xxxxxx xxxxx</p>
+		        </li>
+		        <li class="shopphot">
+		            <img class="shopphot2 fadeIn-img" src="../img/restaurant3.jpg" alt="restaurant3">
+		            <p class="shoptext"><img class="mappin" src="../img/pin.png" alt="pin">千葉県松戸市xxxxx xxxxx</p>
+		        </li>
+		        <li class="shopphot">
+			        <img class="shopphot2 fadeIn-img" src="../img/restaurant4.jpg" alt="restaurant3">
+			        <p class="shoptext"><img class="mappin" src="../img/pin.png" alt="pin">神奈川県横浜市xxxxx xxxx</p>
+		        </li>
+		        <li class="shopphot">
+		            <img class="shopphot2 fadeIn-img" src="../img/restaurant5.jpg" alt="restaurant3">
+			        <p class="shoptext"><img class="mappin" src="../img/pin.png" alt="pin">埼玉県川越市xxxxx xxxx</p>
+		        </li>
+		    </ul>
+	    </div>
+    </div>
+
+	<footer class="footer-menu">
+		<div class="row footer-body">
+		    <ul class="nav justify-content-center py-5">
+			    <li class="nav-item footer-item">
+				    <a class="nav-link link-secondary" href="#">プライバシーポリシー</a>
+			    </li>
+			    <li class="nav-item footer-item">
+				    <a class="nav-link link-secondary" href="#">お問合せ</a>
+		        </li>
+			    <li class="nav-item footer-item">
+			        <a class="nav-link link-secondary" href="#">運営会社</a>
+			    </li>		 
+		    </ul>
+		</div>
+	</footer>  
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="coding.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+</html>
